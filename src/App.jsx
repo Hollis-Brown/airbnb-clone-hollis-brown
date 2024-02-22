@@ -3,7 +3,7 @@ import Hero from "./components/Hero.jsx"
 import Card from "./components/Card.jsx"
 import data from "./data.js"
 
-function App() {
+export default function App() {
 
   const cards = data.map(item => {
     return (
@@ -26,4 +26,3 @@ function App() {
   )
 }
 
-export default App
